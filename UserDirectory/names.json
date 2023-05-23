@@ -1,0 +1,919 @@
+[
+  {
+    "name": "John Doe",
+    "age": 25,
+    "email": "johndoe@example.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["programming", "reading", "traveling"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of XYZ",
+        "year": 2019
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Finance",
+        "university": "ABC Business School",
+        "year": 2021
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 30,
+    "email": "janesmith@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["painting", "hiking", "cooking"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Fine Arts",
+        "university": "University of ABC",
+        "year": 2015
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Alex Johnson",
+    "age": 28,
+    "email": "alexjohnson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["playing guitar", "photography", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Photography",
+        "university": "University of DEF",
+        "year": 2017
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Alice Brown",
+    "age": 32,
+    "email": "alicebrown@example.com",
+    "address": {
+      "street": "246 Elm St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94101"
+    },
+    "interests": ["singing", "dancing", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Biology",
+        "university": "University of GHI",
+        "year": 2014
+      },
+      {
+        "degree": "Master of Public Health",
+        "major": "Epidemiology",
+        "university": "University of JKL",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Thriller"
+  },
+  {
+    "name": "Michael Johnson",
+    "age": 40,
+    "email": "michaeljohnson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["cooking", "gardening", "fishing"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Civil Engineering",
+        "university": "University of MNO",
+        "year": 2005
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Structural Engineering",
+        "university": "University of PQR",
+        "year": 2007
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Emily Wilson",
+    "age": 27,
+    "email": "emilywilson@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["hiking", "painting", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "English Literature",
+        "university": "University of STU",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Robert Lee",
+    "age": 35,
+    "email": "robertlee@example.com",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78701"
+    },
+    "interests": ["photography", "traveling", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Engineering",
+        "university": "University of VWX",
+        "year": 2008
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Marketing",
+        "university": "University of YZA",
+        "year": 2010
+      }
+    ],
+    "favorite": true,
+    "genre": "Sci-Fi"
+  },
+  {
+    "name": "Sarah Davis",
+    "age": 29,
+    "email": "sarahdavis@example.com",
+    "address": {
+      "street": "789 Elm St",
+      "city": "Boston",
+      "state": "MA",
+      "zipcode": "02101"
+    },
+    "interests": ["playing guitar", "cooking", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Psychology",
+        "university": "University of BCD",
+        "year": 2014
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Counseling",
+        "university": "University of EFG",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Daniel Thompson",
+    "age": 33,
+    "email": "danielthompson@example.com",
+    "address": {
+      "street": "246 Oak St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["programming", "reading", "traveling"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of XYZ",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Data Science",
+        "university": "University of ABC",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Mystery"
+  },
+  {
+    "name": "Jessica Martinez",
+    "age": 31,
+    "email": "jessicamartinez@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["painting", "hiking", "cooking"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of GHI",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Ryan Wilson",
+    "age": 27,
+    "email": "ryanwilson@example.com",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["playing guitar", "photography", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Music",
+        "university": "University of JKL",
+        "year": 2016
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Olivia Brown",
+    "age": 29,
+    "email": "oliviabrown@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["dancing", "cooking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "English Literature",
+        "university": "University of DEF",
+        "year": 2012
+      },
+      {
+        "degree": "Master of Arts",
+        "major": "Creative Writing",
+        "university": "University of HIJ",
+        "year": 2014
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Christopher Anderson",
+    "age": 34,
+    "email": "christopheranderson@example.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["painting", "hiking", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of KLM",
+        "year": 2009
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Sophia Clark",
+    "age": 32,
+    "email": "sophiaclark@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["photography", "traveling", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of MNO",
+        "year": 2012
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Data Science",
+        "university": "University of PQR",
+        "year": 2014
+      }
+    ],
+    "favorite": false,
+    "genre": "Sci-Fi"
+  },
+  {
+    "name": "William Johnson",
+    "age": 30,
+    "email": "williamjohnson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["playing guitar", "cooking", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Physics",
+        "university": "University of VWX",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Mystery"
+  },
+  {
+    "name": "Ava Davis",
+    "age": 28,
+    "email": "avadavis@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["painting", "hiking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Art History",
+        "university": "University of XYZ",
+        "year": 2014
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Ethan Thompson",
+    "age": 35,
+    "email": "ethanthompson@example.com",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["photography", "traveling", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of ABC",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Finance",
+        "university": "University of DEF",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Chloe Martinez",
+    "age": 29,
+    "email": "chloemartinez@example.com",
+    "address": {
+      "street": "789 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["painting", "hiking", "cooking"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of GHI",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "David Wilson",
+    "age": 27,
+    "email": "davidwilson@example.com",
+    "address": {
+      "street": "123 Oak St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78701"
+    },
+    "interests": ["playing guitar", "photography", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Music",
+        "university": "University of JKL",
+        "year": 2016
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Grace Brown",
+    "age": 29,
+    "email": "gracebrown@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["dancing", "cooking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Biology",
+        "university": "University of VWX",
+        "year": 2014
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Genetics",
+        "university": "University of YZA",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "James Anderson",
+    "age": 34,
+    "email": "jamesanderson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["painting", "hiking", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of ABC",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Fine Arts",
+        "major": "Sculpture",
+        "university": "University of DEF",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Lily Clark",
+    "age": 32,
+    "email": "lilyclark@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["photography", "traveling", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of GHI",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Marketing",
+        "university": "University of JKL",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Benjamin Wilson",
+    "age": 30,
+    "email": "benjaminwilson@example.com",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["playing guitar", "cooking", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Physics",
+        "university": "University of MNO",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Mystery"
+  },
+  {
+    "name": "Mia Davis",
+    "age": 28,
+    "email": "miadavis@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["painting", "hiking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Art History",
+        "university": "University of XYZ",
+        "year": 2014
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Henry Thompson",
+    "age": 35,
+    "email": "henrythompson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["photography", "traveling", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of ABC",
+        "year": 2010
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Victoria Martinez",
+    "age": 29,
+    "email": "victoriamartinez@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["painting", "hiking", "cooking"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of GHI",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Jacob Wilson",
+    "age": 27,
+    "email": "jacobwilson@example.com",
+    "address": {
+      "street": "123 Oak St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78701"
+    },
+    "interests": ["playing guitar", "photography", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Music",
+        "university": "University of JKL",
+        "year": 2016
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Natalie Brown",
+    "age": 29,
+    "email": "nataliebrown@example.com",
+    "address": {
+      "street": "789 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["dancing", "cooking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Biology",
+        "university": "University of VWX",
+        "year": 2014
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Genetics",
+        "university": "University of YZA",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Daniel Anderson",
+    "age": 34,
+    "email": "danielanderson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["painting", "hiking", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of ABC",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Fine Arts",
+        "major": "Sculpture",
+        "university": "University of DEF",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Sophia Clark",
+    "age": 32,
+    "email": "sophiaclark@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["photography", "traveling", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of GHI",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Business Administration",
+        "major": "Marketing",
+        "university": "University of JKL",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "Oliver Wilson",
+    "age": 30,
+    "email": "oliverwilson@example.com",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipcode": "90001"
+    },
+    "interests": ["playing guitar", "cooking", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Physics",
+        "university": "University of MNO",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Mystery"
+  },
+  {
+    "name": "Emma Davis",
+    "age": 28,
+    "email": "emmadavis@example.com",
+    "address": {
+      "street": "123 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["painting", "hiking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Art History",
+        "university": "University of XYZ",
+        "year": 2014
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Liam Thompson",
+    "age": 35,
+    "email": "liamthompson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["photography", "traveling", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Computer Science",
+        "university": "University of ABC",
+        "year": 2010
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  },
+  {
+    "name": "Ava Martinez",
+    "age": 29,
+    "email": "avamartinez@example.com",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipcode": "98101"
+    },
+    "interests": ["painting", "hiking", "cooking"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of GHI",
+        "year": 2012
+      }
+    ],
+    "favorite": false,
+    "genre": "Drama"
+  },
+  {
+    "name": "William Wilson",
+    "age": 27,
+    "email": "williamwilson@example.com",
+    "address": {
+      "street": "123 Oak St",
+      "city": "Austin",
+      "state": "TX",
+      "zipcode": "78701"
+    },
+    "interests": ["playing guitar", "photography", "yoga"],
+    "education": [
+      {
+        "degree": "Bachelor of Arts",
+        "major": "Music",
+        "university": "University of JKL",
+        "year": 2016
+      }
+    ],
+    "favorite": true,
+    "genre": "Action"
+  },
+  {
+    "name": "Olivia Brown",
+    "age": 29,
+    "email": "oliviabrown@example.com",
+    "address": {
+      "street": "789 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "interests": ["dancing", "cooking", "reading"],
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "major": "Biology",
+        "university": "University of VWX",
+        "year": 2014
+      },
+      {
+        "degree": "Master of Science",
+        "major": "Genetics",
+        "university": "University of YZA",
+        "year": 2016
+      }
+    ],
+    "favorite": false,
+    "genre": "Romance"
+  },
+  {
+    "name": "Alexander Anderson",
+    "age": 34,
+    "email": "alexanderanderson@example.com",
+    "address": {
+      "street": "789 Oak St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipcode": "60601"
+    },
+    "interests": ["painting", "hiking", "playing piano"],
+    "education": [
+      {
+        "degree": "Bachelor of Fine Arts",
+        "major": "Fine Arts",
+        "university": "University of ABC",
+        "year": 2010
+      },
+      {
+        "degree": "Master of Fine Arts",
+        "major": "Sculpture",
+        "university": "University of DEF",
+        "year": 2012
+      }
+    ],
+    "favorite": true,
+    "genre": "Comedy"
+  }
+]
+ 
